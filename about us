@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Portal Berita Kampus</title>
+    <link rel="stylesheet" href="style_boxx.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Portal Berita Utama</h1>
+        </header>
+
+        <nav>
+            <a href="lab4_boxx.html">Beranda</a>
+            <a href="#">Berita Terbaru</a>
+            <a href="about.html" class="active">Tentang Kami</a>
+            <a href="kontak.html">Hubungi Kami</a>
+        </nav>
+
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Tentang Kami</h2>
+                    <img src="https://dummyimage.com/150/0f766e/fff.png&text=Profile" alt="">
+                    <p>Kami adalah tim pengembang web yang berfokus pada penyediaan informasi berkualitas seputar kegiatan akademik dan praktikum. Platform ini dirancang untuk memudahkan mahasiswa mengakses materi dan pengumuman terkini secara efisien.</p>
+                </article>
+
+                <hr class="divider" />
+
+                <h2>Portofolio & Proyek</h2>
+                <br>
+                <div class="row">
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/0d9488/fff.png&text=Web1" alt="" class="image-circle">
+                        <h3>Desain Web Layout</h3>
+                        <p>Proyek pembuatan tata letak halaman web menggunakan HTML5 & CSS3.</p>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/0284c7/fff.png&text=App1" alt="" class="image-circle">
+                        <h3>Sistem Informasi</h3>
+                        <p>Pengembangan sistem manajemen data mahasiswa terintegrasi.</p>
+                    </div>
+                </div>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Informasi Singkat</h3>
+                    <p>Halaman ini berisi deskripsi profil dan portofolio tim pengembang sistem.</p>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 - Laboratorium Komputer Fakultas Ilmu Komputer</p>
+        </footer>
+    </div>
+</body>
+</html>
